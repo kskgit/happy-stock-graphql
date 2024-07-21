@@ -9,4 +9,9 @@
 #   generate-hashes: false
 
 -e file:.
+mypy==1.11.0
+mypy-extensions==1.0.0
+    # via mypy
 ruff==0.5.4
+typing-extensions==4.12.2
+    # via mypy
